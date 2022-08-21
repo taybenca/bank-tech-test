@@ -6,13 +6,13 @@ class Bank {
     deposit(value, date){
         this.date = date
         this.valueDep = value
-        return this.balance += value
+        this.balance += value
     }
 
     withdraw(value, date){
         this.date = date
         this.valueWith = value
-        return this.balance -= value
+        this.balance -= value
     }
     
     getTotal(){
@@ -28,6 +28,7 @@ class Bank {
         }       
         this.data = [transaction]
         console.table(this.data)
+        return true
     }
 }
 
