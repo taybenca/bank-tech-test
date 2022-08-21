@@ -23,12 +23,16 @@ withdraw = (value) => {
     // withdraw a value
 }
 
-viewBankStatement = () = {
+viewBankStatement = () => {
 
     deposit(1000)
     deposit(2000)
     withdraw(500)
 
+}
+
+printConsole = () => {
+    console.table(data, columns)
 }
 
 # Tests
