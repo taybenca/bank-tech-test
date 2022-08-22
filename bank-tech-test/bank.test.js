@@ -23,8 +23,8 @@ describe('Bank', () => {
 
     it('returns a bank statement when user make a deposit of 1000, withdraw of 300', () => {
         const bank = new Bank(0);
-        bank.deposit(1000);
-        bank.withdraw(300);
+        bank.deposit(1000, '01/01/01');
+        bank.withdraw(300, '02/02/02');
         expect(bank.createTable()).toEqual(true)
     })
 })
