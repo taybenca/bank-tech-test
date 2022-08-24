@@ -40,4 +40,4 @@ jest
 
 
 ### Screenshot of the output
-<img src="Output.png">
+<img src="reverse-table.png">
