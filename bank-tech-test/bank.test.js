@@ -25,6 +25,6 @@ describe('Bank', () => {
         const bank = new Bank(0);
         bank.deposit(1000, '01/01/01');
         bank.withdraw(300, '02/02/02');
-        expect(bank.createTable()).toEqual({"balance": 700, "credit": 1000, "date": "02/02/02", "debit": 300})
+        expect(bank.createObject()[1]).toEqual({"balance": 700, "credit": 1000, "date": "02/02/02", "debit": 300})
     })
 })
