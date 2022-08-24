@@ -33,7 +33,6 @@ nvm use node
 npm init -y
 npm add jest
 npm install -g jest
-node run app.js
 
 jest
 ```
