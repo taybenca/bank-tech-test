@@ -39,5 +39,5 @@ jest
 ```
 
 
-### Screenshot of the output
+### Screenshot of the output 
 <img src="reverse-table.png">
